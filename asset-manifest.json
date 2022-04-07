@@ -1,15 +1,26 @@
 {
   "files": {
-    "main.css": "/myportfolio/static/css/main.31d6cfe0.css",
-    "main.js": "/myportfolio/static/js/main.51a99830.js",
+    "main.css": "/myportfolio/static/css/main.14a8739c.css",
+    "main.js": "/myportfolio/static/js/main.44268ee3.js",
     "static/js/787.ab375d54.chunk.js": "/myportfolio/static/js/787.ab375d54.chunk.js",
+    "static/media/CrossFt.png": "/myportfolio/static/media/CrossFt.2d3186c639ebb89a7198.png",
+    "static/media/Mexflix.png": "/myportfolio/static/media/Mexflix.44af5a2893f7aa0921db.png",
+    "static/media/SocialNetwork.png": "/myportfolio/static/media/SocialNetwork.90a7626c195f8077da53.png",
+    "static/media/DataDashboard.png": "/myportfolio/static/media/DataDashboard.9dcde3e00c9d5cb537de.png",
+    "static/media/Trivia.png": "/myportfolio/static/media/Trivia.63db42082e4fe502387e.png",
+    "static/media/Piano.png": "/myportfolio/static/media/Piano.5348cb10b6f88ed395d6.png",
+    "static/media/NotesApp.png": "/myportfolio/static/media/NotesApp.26d476517caa1a81708b.png",
     "static/media/avatar.jpeg": "/myportfolio/static/media/avatar.6a31a326844e5dfb45dd.jpeg",
+    "static/media/VisitorReception.png": "/myportfolio/static/media/VisitorReception.758eb4424b1ecae3341a.png",
+    "static/media/MemoryGame.png": "/myportfolio/static/media/MemoryGame.f95f95587950984d0019.png",
+    "static/media/caesarCipher.png": "/myportfolio/static/media/caesarCipher.7584aa84de17c94f76ad.png",
     "index.html": "/myportfolio/index.html",
-    "main.51a99830.js.map": "/myportfolio/static/js/main.51a99830.js.map",
+    "main.14a8739c.css.map": "/myportfolio/static/css/main.14a8739c.css.map",
+    "main.44268ee3.js.map": "/myportfolio/static/js/main.44268ee3.js.map",
     "787.ab375d54.chunk.js.map": "/myportfolio/static/js/787.ab375d54.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.31d6cfe0.css",
-    "static/js/main.51a99830.js"
+    "static/css/main.14a8739c.css",
+    "static/js/main.44268ee3.js"
   ]
 }
