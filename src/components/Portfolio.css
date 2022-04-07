@@ -1,0 +1,82 @@
+.project-section-header {
+  text-align: center;
+  margin: 0;
+  color: #172538;
+  font-size: 2rem;
+}
+
+.projects-section {
+  text-align: center;
+  padding: 1rem 2rem;
+  background-image: linear-gradient(90deg, #fafafa, #ffffff);
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+
+  grid-gap: 4rem;
+  width: 100%;
+  max-width: 1300px;
+  margin: 0 auto;
+  margin-bottom: 6rem;
+}
+.project-tile {
+  width: 100%;
+  object-fit: cover; /*https://www.w3schools.com/csS/css3_object-fit.asp*/
+}
+img {
+  display: block; /*********************************Importante*******************/
+  width: 100%;
+}
+
+.tiles {
+  background: #457b9d;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.959); /*********************************Importante*******************/
+  border-radius: 2px;
+  border: solid black 1px;
+}
+.proyect-title {
+  margin: 10px;
+
+  line-height: 1.4;
+  color: #1d3557;
+  text-decoration: none;
+  cursor: pointer;
+}
+.contact-links a {
+  color: #f1faee !important;
+  font-size: 4rem;
+  padding-left: 100px;
+}
+footer {
+  border-top: solid 5px;
+  border-color: rgba(252, 34, 34, 0.4);
+  background-image: linear-gradient(90deg, #a1a1a5, #172538);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  color: #f1faee !important;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+@media (max-width: 75em) {
+  html {
+    font-size: 60%;
+  }
+}
+
+/* 980px / 16px = 61.25em */
+@media (max-width: 61.25em) {
+  html {
+    font-size: 58%;
+  }
+}
+
+/* 460px / 16px = 28.75em */
+@media (max-width: 28.75em) {
+  html {
+    font-size: 55%;
+  }
+}

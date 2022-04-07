@@ -92,8 +92,6 @@ const Home = () => {
           detectRetina: true,
         }}
       />
-      <Navbar />
-      <Header />
     </div>
   );
 };
