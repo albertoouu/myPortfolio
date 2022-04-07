@@ -22,6 +22,7 @@ import {
 } from "@mui/icons-material";
 import { makeStyles } from "@mui/styles";
 import avatar from "../assets/avatar.jpeg";
+import { NavLink } from "react-router-dom";
 
 //CCS STYLES
 const useStyles = makeStyles({
@@ -45,18 +46,22 @@ const menuItems = [
   {
     listIcon: <Home sx={{ color: "#e3e3e3" }} />,
     listText: "Home",
+    listPath: "/",
   },
   {
     listIcon: <AssignmentInd sx={{ color: "#e3e3e3" }} />,
     listText: "Resume",
+    listPath: "/resume",
   },
   {
     listIcon: <Apps sx={{ color: "#e3e3e3" }} />,
     listText: "Portfolio",
+    listPath: "/portfolio",
   },
   {
     listIcon: <ContactMail sx={{ color: "#e3e3e3" }} />,
     listText: "Contacts",
+    listPath: "/contacts",
   },
 ];
 
@@ -86,15 +91,17 @@ const Navbar = () => {
       <Divider />
       <List>
         {menuItems.map((lsItem, key) => (
-          <ListItem button key={key}>
-            <ListItemIcon className={classes.listItem}>
-              {lsItem.listIcon}
-            </ListItemIcon>
-            <ListItemText
-              className={classes.listItem}
-              primary={lsItem.listText}
-            />
-          </ListItem>
+          <NavLink to={lsItem.listPath}>
+            <ListItem button key={key}>
+              <ListItemIcon className={classes.listItem}>
+                {lsItem.listIcon}
+              </ListItemIcon>
+              <ListItemText
+                className={classes.listItem}
+                primary={lsItem.listText}
+              />
+            </ListItem>
+          </NavLink>
         ))}
       </List>
     </Box>
