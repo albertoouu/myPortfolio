@@ -50,7 +50,7 @@ const menuItems = [
   },
   {
     listIcon: <AssignmentInd sx={{ color: "#e3e3e3" }} />,
-    listText: "Resume",
+    listText: "Resume / CV",
     listPath: "/resume",
   },
   {
