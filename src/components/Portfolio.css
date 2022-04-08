@@ -30,6 +30,10 @@ img {
   width: 100%;
 }
 
+a {
+  text-decoration: none;
+}
+
 .tiles {
   background: #457b9d;
   box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.959); /*********************************Importante*******************/
@@ -38,9 +42,8 @@ img {
 }
 .proyect-title {
   margin: 10px;
-
   line-height: 1.4;
-  color: #1d3557;
+  color: #ffffff;
   text-decoration: none;
   cursor: pointer;
 }
