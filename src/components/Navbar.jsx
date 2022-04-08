@@ -46,22 +46,22 @@ const menuItems = [
   {
     listIcon: <Home sx={{ color: "#e3e3e3" }} />,
     listText: "Home",
-    listPath: "/",
+    listPath: "/myportfolio",
   },
   {
     listIcon: <AssignmentInd sx={{ color: "#e3e3e3" }} />,
     listText: "Resume / CV",
-    listPath: "/resume",
+    listPath: "/myportfolio/resume",
   },
   {
     listIcon: <Apps sx={{ color: "#e3e3e3" }} />,
     listText: "Portfolio",
-    listPath: "/portfolio",
+    listPath: "/myportfolio/portfolio",
   },
   {
     listIcon: <ContactMail sx={{ color: "#e3e3e3" }} />,
     listText: "Contacts",
-    listPath: "/contacts",
+    listPath: "/myportfolio/contacts",
   },
 ];
 
